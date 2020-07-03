@@ -1,103 +1,13 @@
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+.main div {
 }
-h1 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 1.75em;
-}
-
-h2 {
-    text-align: center;
-    font-size: 1.25em;
-}
-
-h2#chicken {
+.main .chicken {
     background-color: aqua;
 }
 
-h2#beef {
-    background-color: brown;
-    color: white;
+.main .beef {
+    background-color: greenyellow;
 }
 
-h2#sushi {
-    background-color: violet;
+.main .sushi {
+    background-color: gold;
 }
-
-div.header-container {
-    width: 150px;
-    border: 1px black solid;
-    margin-left: auto;
-    position: relative;
-    left: 1px;
-    top: -1px;
-}
-
-div#container {
-    
-    padding: 10px;
-    
-}
-
-div.content {
-    border: 1px solid black;
-}
-
-div#chicken {
-    background-color: chartreuse;
-}
-
-div#beef {
-    background-color: darksalmon;
-}
-
-div#sushi {
-    background-color: rgb(164, 164, 164);
-}
-
-p {
-    margin: 10px
-}
-
-
-/* Simple Responsive Framework. */
-.row {
-    width: 100%;
-    padding: 10px;
-  }
-  
-
-  /* Desktop */
-  @media (min-width: 992px) {
-    .col-md {
-      width: 33.33%;
-      float: left;
-    }
-} 
-  
-    /* Tablet */
-  @media (min-width: 768px) and (max-width: 991px) {
-    .col-sm {
-      width: 50%;
-      float: left;
-    }
-    .third{
-        width: 100%;
-    }
-}
-  /* Phone */
-  @media (max-width: 767px) {
-    .col-xs {
-      width: 100%;
-      float: left;
-    }
-}
-
-
-
